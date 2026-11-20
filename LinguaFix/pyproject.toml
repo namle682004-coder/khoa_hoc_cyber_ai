@@ -1,0 +1,26 @@
+[project]
+name = "linguafix"
+version = "0.1.0"
+description = "Vietnamese grammar and spelling correction AI"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+
+dependencies = [
+    "transformers>=4.40",
+    "datasets>=2.18",
+    "sentencepiece>=0.2.0",
+    "accelerate>=0.30",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = [
+    "black",
+    "isort",
+    "ruff"
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu121"

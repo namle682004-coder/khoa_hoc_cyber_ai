@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+**/venv/
+**/.venv/
+**/env/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testing & Notebooks
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Training artifacts, runs & logs
+runs/
+**/runs/
+logs/
+**/logs/
+*.log
+.gradio/
+tmp/
+**/tmp/
+
+# Model Checkpoints & Large Weights
+checkpoints/
+**/checkpoints/
+**/checkpoint-*/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.weights
+*.h5
+
+# Database & vector store data
+**/data/qdrant/
+**/storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Large Archives & Datasets
+*.tar.gz
+*.zip
+*.7z
+*.rar
+detect_emotion_confidence/data/
+lab-02-cifar10-cnn/data/
+LinguaFix/data/
+yolo-object-detection/data/test/
+yolo-object-detection/data/train/
+yolo-object-detection/data/valid/
+yolo-object-detection/data_small/

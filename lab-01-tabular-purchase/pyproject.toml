@@ -1,0 +1,19 @@
+[project]
+name = "lab-01-tabular-purchase"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+dependencies = [
+    "scikit-learn",
+    "pandas",
+    "numpy<2",
+    "joblib",
+    "pyyaml",
+    "gradio",
+    "skl2onnx",
+    "onnxruntime>=1.17,<1.19",
+    "matplotlib",
+    "shap",
+    "xgboost",
+    "optuna"
+]

@@ -1,0 +1,26 @@
+[project]
+name = "lab-02-cifar-cnn"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+dependencies = [
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "joblib",
+    "pyyaml",
+    "gradio",
+    "skl2onnx",
+    "onnxruntime>=1.17,<1.19",
+    "matplotlib",
+    "shap",
+    "torch",
+    "datasets",
+    "transforms",
+    "DataLoader",
+    "Subset",
+    "Image",
+    "load_config",
+    "torchvision"
+
+]

@@ -1,0 +1,19 @@
+[project]
+name = "chapter4-unified-vllm-fastapi-gradio"
+version = "0.1.0"
+description = "Unified Chapter 4 project: vLLM + FastAPI + Gradio with DeepSeek"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "fastapi>=0.118.0",
+  "gradio>=6.0.0",
+  "httpx>=0.28.1",
+  "huggingface-hub>=1.7.1",
+  "loguru>=0.7.3",
+  "pydantic>=2.11.9",
+  "python-dotenv>=1.1.1",
+  "pyyaml>=6.0.3",
+  "uvicorn>=0.37.0",
+]
+
+[dependency-groups]
+dev = []

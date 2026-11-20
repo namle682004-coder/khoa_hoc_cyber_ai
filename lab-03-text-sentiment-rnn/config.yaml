@@ -1,0 +1,18 @@
+
+  seed: 42
+
+  data:
+    max_vocab: 20000
+    max_len: 200
+    batch_size: 32
+
+  model:
+    emb_dim: 128
+    hidden_dim: 128
+    num_layers: 2
+    dropout: 0.3
+    bidirectional: true
+
+  train:
+    epochs: 12              # train lâu hơn
+    lr: 0.001               # Adam mặc định tốt

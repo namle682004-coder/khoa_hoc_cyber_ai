@@ -1,0 +1,19 @@
+{
+    "Administrative": "int64",
+    "Administrative_Duration": "float64",
+    "Informational": "int64",
+    "Informational_Duration": "float64",
+    "ProductRelated": "int64",
+    "ProductRelated_Duration": "float64",
+    "BounceRates": "float64",
+    "ExitRates": "float64",
+    "PageValues": "float64",
+    "SpecialDay": "float64",
+    "Month": "category",
+    "OperatingSystems": "category",
+    "Browser": "category",
+    "Region": "category",
+    "TrafficType": "category",
+    "VisitorType": "category",
+    "Weekend": "category"
+}

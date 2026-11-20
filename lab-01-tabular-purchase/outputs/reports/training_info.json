@@ -1,0 +1,6 @@
+{
+    "timestamp": "2026-03-05T17:15:51.840674",
+    "dataset_rows": 12330,
+    "dataset_features": 17,
+    "best_model": "gbm"
+}

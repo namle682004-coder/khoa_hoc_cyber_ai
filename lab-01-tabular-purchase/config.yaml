@@ -1,0 +1,9 @@
+data:
+  test_size: 0.2
+
+model:
+  name: gbm
+
+training:
+  seed: 42
+  fast_dev_sample: 2000

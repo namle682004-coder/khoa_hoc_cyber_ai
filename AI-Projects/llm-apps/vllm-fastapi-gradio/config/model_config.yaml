@@ -1,0 +1,17 @@
+model:
+  name: deepseek-ai/DeepSeek-Coder-V2-Lite-Base
+  dtype: float16
+  max_model_len: 8192
+  gpu_memory_utilization: 0.9
+
+generation:
+  temperature: 0.2
+  top_p: 0.9
+  max_tokens: 512
+
+api:
+  default_system_prompt: You are a concise coding assistant.
+
+features:
+  allow_custom_system_prompt: true
+  enable_summary_endpoint: true

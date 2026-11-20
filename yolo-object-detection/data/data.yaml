@@ -1,0 +1,24 @@
+path: ./data_small
+
+train: train.sh/images
+val: valid/images
+test: test/images
+
+nc: 7
+
+names:
+  0: container
+  1: crane
+  2: forklift
+  3: person
+  4: ship
+  5: stacker
+  6: truck
+
+
+roboflow:
+  workspace: pasadafirstdatasets
+  project: xml_to_yolo_tes
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pasadafirstdatasets/xml_to_yolo_tes/dataset/6

@@ -1,0 +1,18 @@
+[project]
+name = "rag-qdrant-app"
+version = "0.1.0"
+description = "RAG pipeline with Qdrant"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "qdrant-client>=1.9.0",
+    "sentence-transformers>=2.6.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel",
+    "black",
+    "ruff"
+]

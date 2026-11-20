@@ -1,0 +1,29 @@
+[project]
+name = "detect-emotion-confidence"
+version = "0.1.0"
+description = "Face emotion recognition system"
+requires-python = ">=3.10,<3.11"
+
+dependencies = [
+    "torch",
+    "torchvision",
+    "opencv-python",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "tqdm",
+    "facenet-pytorch",
+    "fastapi",
+    "uvicorn",
+    "gradio",
+    "pillow",
+    "tensorboard"
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "black",
+    "ruff"
+]

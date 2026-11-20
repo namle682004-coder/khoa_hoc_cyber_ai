@@ -1,0 +1,15 @@
+log_level: INFO
+
+service:
+  # If empty, API key auth is disabled. For public or shared host, set a strong key.
+  api_key: null
+  enable_cors: true
+  grpc_port: 6334
+  http_port: 6333
+
+storage:
+  storage_path: /qdrant/storage
+  snapshots_path: /qdrant/snapshots
+  on_disk_payload: true
+  optimizers:
+    default_segment_number: 2
